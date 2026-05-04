@@ -157,6 +157,25 @@ elif st.session_state.step == 1:
 
 elif st.session_state.step == 2:
     st.balloons()
+    import base64
+    from pathlib import Path
+
+    audio_path = Path("burningup.mp3")
+
+    if audio_path.exists():
+        audio_bytes = audio_path.read_bytes()
+        audio_base64 = base64.b64encode(audio_bytes).decode()
+
+        st.markdown(
+            f"""
+            <audio autoplay loop controls style="width:100%; margin-top:16px;">
+              <source src="data:audio/mp3;base64,{audio_base64}" type="audio/mpeg">
+            </audio>
+            """,
+            unsafe_allow_html=True
+        )
+    else:
+        st.warning("No encontré el archivo burningup.mp3")
 
     st.markdown(
         """
@@ -174,16 +193,6 @@ elif st.session_state.step == 2:
             Te amo 💖
           </p>
         </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-    st.markdown(
-        """
-        <audio autoplay loop controls style="width:100%; margin-top:16px;">
-          <source src="burningup.mp3" type="audio/mpeg">
-          Tu navegador no soporta audio
-        </audio>
         """,
         unsafe_allow_html=True
     )
