@@ -161,9 +161,8 @@ elif st.session_state.step == 2:
     st.markdown(
         """
         <div class="ticket-card">
-          <p class="tiny-label">Tu regalo es</p>
-          <p class="big-boom">
-            Te vas a ver a los Jonas Brothers. <span style="color:#7c3aed!important;">Yes, girl.</span>
+          <p class="tiny-label">Yes, Girl</p>
+          <h2 class="reveal-title"> Te vas a ver a los Jonas Brothers.</h2> 
           </p>
           <div class="divider"></div>
           <p class="center">
