@@ -162,7 +162,6 @@ elif st.session_state.step == 2:
         """
         <div class="ticket-card">
           <p class="tiny-label">Tu regalo es</p>
-          <h2 class="reveal-title">Jonas Brothers</h2>
           <p class="big-boom">
             Te vas a ver a los Jonas Brothers. <span style="color:#7c3aed!important;">Yes, girl.</span>
           </p>
