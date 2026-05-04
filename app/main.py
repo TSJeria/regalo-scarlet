@@ -106,7 +106,7 @@ st.markdown(
 
 st.markdown('<h1 class="title">Para Scarlet ✨</h1>', unsafe_allow_html=True)
 st.markdown(
-    '<p class="subtitle">Una pequeña sorpresa preparada con cariño y un poquito de drama, como corresponde.</p>',
+    '<p class="subtitle">Una pequeña sorpresa preparada con cariño</p>',
     unsafe_allow_html=True
 )
 
