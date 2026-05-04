@@ -104,7 +104,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown('<h1 class="title">Para Scarlet</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">Para Scarlet ✨</h1>', unsafe_allow_html=True)
 st.markdown(
     '<p class="subtitle">Una pequeña sorpresa preparada con cariño y un poquito de drama, como corresponde.</p>',
     unsafe_allow_html=True
@@ -161,18 +161,17 @@ elif st.session_state.step == 2:
     st.markdown(
         """
         <div class="ticket-card">
-          <p class="tiny-label">Yes, Girl</p>
+          <p class="tiny-label">Yes, Girl ✨</p>
           <h2 class="reveal-title"> Te vas a ver a los Jonas Brothers.</h2> 
-          </p>
           <div class="divider"></div>
           <p class="center">
             Esta entrada es para ti, para que disfrutes la noche como tú quieras.
             Quiero que cantes, grites, te emociones y lo pases a toda raja.
-            Ojalá sea una noche llena de emoción y recuerdos bonitos.
+            Ojalá sea una noche llena de recuerdos bonitos.
           </p>
           <p class="note">
             La entrada oficial te la enviaré por correo. Esta es solo la entrega dramática del regalo jeje.
-            Te amo.
+            Te amo 💖
           </p>
         </div>
         """,
@@ -180,12 +179,11 @@ elif st.session_state.step == 2:
     )
 
     st.markdown(
-        f"""
-        <div class="soft-card center">
-          <p class="tiny-label">Para entrar en mood</p>
-          <p>Antes de ver la entrada, puedes poner una canción de fondo.</p>
-          <a class="music-button" href="{MUSIC_URL}" target="_blank">Abrir canción</a>
-        </div>
+        """
+        <audio autoplay loop controls style="width:100%; margin-top:16px;">
+          <source src=burningup.mp3" type="audio/mpeg">
+          Tu navegador no soporta audio
+        </audio>
         """,
         unsafe_allow_html=True
     )
@@ -214,9 +212,9 @@ elif st.session_state.step == 2:
         <div class="soft-card center">
           <p>
             Espero que la pases precioso, que cantes tus canciones favoritas y que esta sea una noche muy especial para ti.
-            Te amo.
+            Te amo 💖
           </p>
-          <p class="muted">Con cariño, Thiare</p>
+          <p class="muted">Con cariño, Thiare 💖</p>
         </div>
         """,
         unsafe_allow_html=True
