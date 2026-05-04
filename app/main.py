@@ -181,7 +181,7 @@ elif st.session_state.step == 2:
     st.markdown(
         """
         <audio autoplay loop controls style="width:100%; margin-top:16px;">
-          <source src=burningup.mp3" type="audio/mpeg">
+          <source src="burningup.mp3" type="audio/mpeg">
           Tu navegador no soporta audio
         </audio>
         """,
