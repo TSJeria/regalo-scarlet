@@ -203,7 +203,6 @@ elif st.session_state.step == 2:
         """
         <div class="soft-card center">
           <p class="tiny-label">Preview de tu entrada</p>
-          <p>El código está tapado por seguridad. La entrada oficial llega por correo.</p>
         </div>
         """,
         unsafe_allow_html=True
